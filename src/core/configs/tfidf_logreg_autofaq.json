@@ -3,7 +3,7 @@
     "class_name": "faq_reader",
     "x_col_name": "Question",
     "y_col_name": "Answer",
-    "data_path": "src/core/data/dataset_vsu_qa.csv"
+    "data_path": "/content/amm-vsu-chatbot/src/core/data/covid_19faq.csv"
   },
   "dataset_iterator": {
     "class_name": "basic_classification_iterator",
@@ -84,8 +84,7 @@
       }
     ],
     "out": [
-      "y_pred_answers",
-      "y_pred_proba"
+      "y_pred_answers"
     ]
   },
   "train": {
@@ -94,7 +93,7 @@
   },
   "metadata": {
     "variables": {
-      "ROOT_PATH": "src/core",
+      "ROOT_PATH": "/content/amm-vsu-chatbot/src/core",
       "MODELS_PATH": "{ROOT_PATH}/models"
     }
   }
